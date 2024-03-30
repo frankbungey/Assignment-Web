@@ -1,26 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="/contact.css">
+    <link rel="stylesheet" href="/Assignment-Web/contact.css">
 </head>
+
 <body>
-    <div class="header">
-        <div class="logo">
-            <img src="/images/img 1.jpg" height="60px" width="60px">
+    <div class="main-div">
+        <div class="header">
+            <div class="logo">
+                <img src="/Assignment-Web/images/img 1.jpg" height="60px" width="60px">
+            </div>
+
+            <div class="links">
+                <ul>
+                    <a href="/Assignment-Web/index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="/Assignment-Web/services.html">
+                        <li>Services</li>
+                    </a>
+                    <a href="/Assignment-Web/food.html">
+                        <li>Achievements</li>
+                    </a>
+                    <a href="/Assignment-Web/aboutus.html">
+                        <li>AboutUs</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact-Us</li>
+                    </a>
+                    <button class="btn1-top">Get Started</button>
+                </ul>
+            </div>
         </div>
-        <div class="links">
-            <ul>
-                <a><li>Home</li></a>
-                <a href="/services.html"><li>Services</li></a>
-                <a href="/food.html"><li>Foods</li></a>
-                <a href="/aboutus.html"><li>AboutUs</li></a>
-                <a href="/contact.html"><li>Contact-Us</li></a> 
-                <button class="btn1-top">Get Started</button>
-            </ul>
+        <hr>
+
+        <div class="contact-us">
+
+            <img class="pic" src="/Assignment-Web/images/code1.jpg" height="780px" width="700px">
+
+
+            <div class="hero">
+                <div class="cont">
+                    <h1>Contact Us</h1>
+                    <hr>
+                    <form>
+                        <input class="inputs" type="text" placeholder="Your Name"><br><br>
+                        <input class="inputs1" type="text" placeholder="E-mail"><br><br>
+                        <textarea class="message" placeholder="How Can We Help"></textarea>
+                        <div class="outlet"></div>
+                    </form>
+                </div>
+                <div class="text">
+                    <h2>Contact</h2><br>
+                    <p>ztechcompany@gmail.com </p><br>
+                    <p>Tell: 0748292553</p><br>
+                    <h2>
+                        Based In
+                    </h2><br>
+                    <p>Nairobi</p>
+
+                </div>
+                <button class="submit" onclick="submitData()">Contact Us</button>
+            </div>
         </div>
     </div>
+    <script src="/Assignment-Web/constact.js"></script>
 </body>
+
 </html>

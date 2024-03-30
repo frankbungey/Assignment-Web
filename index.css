@@ -32,10 +32,13 @@ h1 {
     color: var(--dark);
     justify-content: space-between;
 }
-
+.logo{
+    display: flex;
+}
 .logo img {
     border-radius: 50%;
     margin-left: 0;
+    margin-right: 1rem;
 }
 
 .links ul {
@@ -44,7 +47,9 @@ h1 {
     align-items: center;
     justify-content: space-around;
 }
-
+.links ul a{
+    text-decoration: none;
+}
 .links ul li {
     list-style: none;
     font-size: 23px;
@@ -100,7 +105,7 @@ hr {
     text-align: center;
     height: 60vh;
     width: 100%;
-    background-image: url(/images/img\ 5.jpg);
+    background-image: url(/Assignment-Web/images/code1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -372,7 +377,7 @@ extra p{
 /* courses */
 .courses{
     margin-top: 4rem;
-    height: 50lvh;
+    height: 60lvh;
     background: var(--grey);
     color: var(--black);
     /* display: flex; */
@@ -389,7 +394,7 @@ extra p{
     color: var(--purple)
 }
 .tutor{
-    background: var(--white);
+    /* background: var(--white); */
 }
 .tutor h4{
     cursor: pointer;
@@ -401,6 +406,10 @@ extra p{
 .tutor p{
     text-align: center;
 }
-.course{
+.course,
+.tutor{
     background: var(--white);
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
